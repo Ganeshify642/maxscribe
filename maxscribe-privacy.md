@@ -1,6 +1,6 @@
 # MaxScribe AI Privacy Policy
 
-**Last Updated:** [Insert Date]
+**Last Updated:** 10-May-2025
 
 This Privacy Policy describes how MaxScribe AI ("we", "our", or "us") collects, uses, and discloses your information when you use our mobile application (the "App").
 
@@ -9,7 +9,7 @@ This Privacy Policy describes how MaxScribe AI ("we", "our", or "us") collects, 
 ### 1.1 Personal Information
 When you use MaxScribe AI, we may collect:
 - Account information (name, email, professional credentials)
-- Voice recordings for note dictation
+- Voice recordings for note dictation (will be deleted immediately)
 - Clinical notes you create or generate
 - Patient data you input into the App
 
@@ -46,8 +46,7 @@ We retain your information only as long as necessary:
 ## 5. Third-Party Services
 
 We may use third-party services that have access to your information:
-- Cloud storage providers (AWS, Google Cloud)
-- Analytics services (Google Analytics)
+- Cloud storage providers (AWS)
 - Payment processors (if applicable)
 
 All third parties are vetted for HIPAA compliance where required.
@@ -61,7 +60,7 @@ You have the right to:
 - Opt-out of data collection
 - Receive your data in a portable format
 
-To exercise these rights, contact us at privacy@maxscribeai.com.
+To exercise these rights, contact us at maxscribe.ai@gmail.com
 
 ## 7. Children's Privacy
 
@@ -74,5 +73,5 @@ We may update this policy periodically. We will notify you of significant change
 ## 9. Contact Us
 
 For questions about this Privacy Policy:
-- Email: privacy@maxscribeai.com
-- Address: [Your Company Address]
+- Email: maxscribe.ai@gmail.com
+- Contact no.: +91 7861003128
