@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxScribe AI - AI-Powered Clinical Notes for Doctors</title>
+    <style>
+        :root {
+            --surgical-green: #7efc008f;
+            --dark-green: #01A282;
+            --light-gray: #f5f5f5;
+            --white: #ffffff;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: var(--light-gray);
+        }
+        
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: var(--dark-green);
+        }
+        .coming-soon-tag {
+    background-color: var(--surgical-green);
+    color: var(--dark-green);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+        
+        .logo span {
+            color: var(--surgical-green);
+        }
+        
+        .hero {
+            background-color: var(--white);
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            color: var(--dark-green);
+        }
+        
+        .hero p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        .app-screenshots {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        
+        .app-screenshot {
+            width: 220px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .app-screenshot:hover {
+            transform: translateY(-5px);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--surgical-green);
+            color: var(--dark-green);
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            border: 2px solid var(--surgical-green);
+            margin-top: 20px;
+        }
+        
+        .cta-button:hover {
+            background-color: var(--white);
+            color: var(--surgical-green);
+        }
+        
+        .features {
+            padding: 60px 0;
+            background-color: var(--white);
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: var(--dark-green);
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background-color: var(--light-gray);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        
+        .feature-card h3 {
+            color: var(--dark-green);
+            margin-top: 20px;
+        }
+        
+        .feature-icon {
+            font-size: 40px;
+            color: var(--surgical-green);
+        }
+        
+        .how-it-works {
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .how-it-works h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: var(--dark-green);
+        }
+        
+        .steps {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .step {
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+        }
+        
+        .step-number {
+            background-color: var(--surgical-green);
+            color: var(--dark-green);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin: 0 auto 15px;
+        }
+        
+        footer {
+            background-color: var(--dark-green);
+            color: var(--white);
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .hero p {
+                font-size: 18px;
+            }
+            
+            .app-screenshots {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .app-screenshot {
+                width: 80%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">MaxScribe</span> AI</div>
+                <div class="coming-soon-tag">🚀 Coming Soon</div>
+
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>AI-Powered Clinical Notes for Doctors</h1>
+            <p>Transform your documentation workflow with MaxScribe AI's intelligent clinical note generation.</p>
+            
+            <div class="app-screenshots">
+                <img src="https://file.garden/ZdiH-Zzmo3pLm3VM/MaxScribe_AI_-_2.jpg" alt="MaxScribe AI Dashboard" class="app-screenshot">
+                <img src="https://file.garden/ZdiH-Zzmo3pLm3VM/MaxScribe_AI_-_3.jpg" alt="Patient Creation" class="app-screenshot">
+                <img src="https://file.garden/ZdiH-Zzmo3pLm3VM/MaxScribe_AI_-_4.jpg" alt="Secure Conversation Recording" class="app-screenshot">
+                <img src="https://file.garden/ZdiH-Zzmo3pLm3VM/MaxScribe_AI_-_5.jpg" alt="Clinical AI Note View" class="app-screenshot">
+            </div>
+            
+            <a href="https://apps.apple.com" class="cta-button">Privacy Policy</a>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎤</div>
+                    <h3>Voice Dictation</h3>
+                    <p>Speak your notes naturally and let our AI transform them into perfectly formatted clinical documentation.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📋</div>
+                    <h3>Smart Templates</h3>
+                    <p>Specialty-specific templates that adapt to your documentation style and preferences.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Secure & Private</h3>
+                    <p>HIPAA-compliant with end-to-end encryption to protect patient health information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Record or Dictate</h3>
+                    <p>Speak your notes or import patient data to begin the documentation process.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>AI Processing</h3>
+                    <p>Our advanced algorithms structure and format your input into professional notes.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Review & Export</h3>
+                    <p>Easily review, edit, and export notes to your EHR or other systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MaxScribe AI. All rights reserved.</p>
+            <p>Support: avaiya.kashyap@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
