@@ -1,6 +1,6 @@
 # MaxScribe AI Privacy Policy
 
-**Last Updated:** 10-May-2025
+**Last Updated:** June-2025
 
 This Privacy Policy describes how MaxScribe AI ("we", "our", or "us") collects, uses, and discloses your information when you use our mobile application (the "App").
 
@@ -27,6 +27,7 @@ We use the collected information to:
 - Develop new features
 - Ensure HIPAA compliance
 - Communicate with you about updates
+- We collect your contact number to assist with customer support. If you submit a query or encounter any issue, our support team may use your contact number to reach out to you and resolve the matter efficiently. Your phone number will never be shared with third parties and will only be used for support-related communication.
 
 ## 3. Data Security
 
