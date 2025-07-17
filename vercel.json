@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/maxscribe-privacy",
+      "dest": "/maxscribe-privacy.html"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ]
+}
