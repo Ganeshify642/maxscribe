@@ -6,7 +6,7 @@
     <title>MaxScribe AI - AI-Powered Clinical Notes for Doctors and Medical Professionals</title>
     <style>
         :root {
-            --surgical-green: #7efc008f;
+            --surgical-green: rgba(255, 255, 255, 0.561);
             --dark-green: #01A282;
             --light-gray: #f5f5f5;
             --white: #ffffff;
@@ -65,8 +65,8 @@
             text-align: center;
         }
         
-        .hero h1 {
-            font-size: 42px;
+        .hero h2 {
+            font-size: 36px;
             margin-bottom: 20px;
             color: var(--dark-green);
         }
@@ -110,11 +110,13 @@
             transition: all 0.3s ease;
             border: 2px solid var(--surgical-green);
             margin-top: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
         
         .cta-button:hover {
-            background-color: var(--white);
-            color: var(--surgical-green);
+            background-color: var(--dark-green);
+            color: var(--white);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
         
         .features {
@@ -233,7 +235,7 @@
     
     <section class="hero">
         <div class="container">
-            <h1>AI-Powered Clinical Notes for Doctors and Medical Professionals</h1>
+            <h2>AI-Powered Clinical Notes for Doctors and Medical Professionals</h2>
             <p>Transform your documentation workflow with MaxScribe AI's intelligent clinical note generation.</p>
             
             <div class="app-screenshots">
